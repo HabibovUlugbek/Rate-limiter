@@ -55,11 +55,8 @@ Requirement:
 * You can find throttle method for rate limit it will wait one second when number of request reached their limit
 * You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Of course, if you have any suggestion Please contact me!!
 
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -95,6 +92,8 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Enter bash commands in comment
    ```bash
+   echo "id,name,desc, age" > data.csv
+   for i in `seq 1 5`; do node -e "process.stdout.write('$i,habibov,$i-habibov, 20\n'.repeat(1e5))" >> data.csv; done
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
